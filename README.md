@@ -1,1 +1,3 @@
-# Single_Asset_MonteCarlo_VAR_Model
+# Single Asset MonteCarlo VAR Model
+##### Joshua Smith 
+## Project Description 
