@@ -82,7 +82,7 @@ Libraries:
 * xlwings: library that writes to excel and utalizes excel as an interface for python 
 * urllib.request: utalized to get URL quests to help obtain URL tags for webscraping of live (slight time delay) prices and rf rate 
 * beautiful soup: library used for webscraping and webscraping features/ function
-* sortedcontainers: replacing a traditional sorting algorithm such as insertsort (O(n^2)) to avoid recursion limit error. It is possible to turn off recursion limit but highly cautioned against. Thus as we are working with 10000 data points we shall import a method. 
+* sortedcontainers: replacing a traditional sorting algorithm such as insertsort O(n<sup>2</sup>) to avoid recursion limit error. It is possible to turn off recursion limit but highly cautioned against. Thus as we are working with 10000 data points we shall import a method. 
 
 Website(s):
 * Yahoo Finance: utalized as a proxy for a conventional platform often found within financial institutions such as bloomberg terminal or Capital IQ
