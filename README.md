@@ -17,7 +17,7 @@ To avoid the "normalicy flaw": MonteCarlo, although more complex is often used t
 
 Despite seeming promising, each VAR model variant, including MonteCarlo does possess flaws. VAR models although utalized in industry possess a magnitude of flaws and are at their core fundamentally broken and should be used a "guage" opposed to an absolute value. A collection of pros and cons exist to MonteCarlo Variants: 
 
-* Advantages: not as influenced by extreme BLACK SWANS like historical or parametric models as the model does not solely rely on historical data 
+* Advantages: not as influenced by extreme $Black Swans$ like historical or parametric models as the model does not solely rely on historical data 
 * Draw Backs: time consuming and complicated
 
 ## Why this Project &#x2753;
@@ -47,7 +47,7 @@ Most VAR models are constructed and built via python to utalize the workabilty o
 ## Project - Other considerations and Birds Eye View &#x1F426;
 
 ##### Other Considerations 
-An additonal metric of CVAR (Conditional Value at Risk) will be shown. CVAR is a measure beyond VAR that is more robust and its always greater than VAR as it accounts for tail risk. 
+An additonal metric of CVAR (Conditional Value at Risk) will be shown. CVAR is a measure beyond VAR that is more robust and is always greater than VAR as it accounts for tail risk. 
 
 Historical Data: Although MonteCarlo does not rely solely on historical data like other models, we will be using a 5 year period of historical data to comply with industry standards (5 year rolling beta etc) to ensure that we are in the most accurate snapshot of relevant market trends and conditions 
 
