@@ -2,7 +2,7 @@
 ##### Joshua Smith 
 ## Project Description &#x1F4D3;
 
-Some of the risk attempts to measure numerical,  more specifically monetary risk, and thus the lossess attributed to a portfolio are attributed to Francis Edgeworth as far back as 1888:
+A degree of the attempts to measure numerical risk,  more specifically, monetary risk, and thus the losses attributed to a portfolio, are thanks to Francis Edgeworth and stretch as far back as 1888:
 <p align="center">
   <b>"We are X% certain that we will not lose more than Y amount of dollars in T amount of time"</b>
 </p>
