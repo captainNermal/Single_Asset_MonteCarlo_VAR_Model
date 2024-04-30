@@ -69,7 +69,7 @@ Historical Data: Although MonteCarlo does not rely solely on historical data lik
   <b> Lastly a simulation expected return via formula </b> $$E(r) = \text{Annual Return} \cdot \left(\frac{1}{252}\right) + \text{Annual Std Dev} \cdot \text{ZScore} \cdot \left(\frac{1}{\sqrt{252}}\right)$$ 
 </p>
 
-* These simulated returns will then be sorted in ascenting order. If we are 95% confident, we look to lossess in the 5th percentisle (or the kth value being the 5th value in the sorted expected returns). If the 5th vlauer is 8.70% we would state we are 95% confident that we will not loose more $87,000 (8.70% x 1,000,000 notiional portfolio) on a 1,000,000 portfolio of asset X after a timeframe of 5 Years. $CVAR$ will provide a value greater than this.
+* These simulated returns will then be sorted in ascenting order. If we are 95% confident, we look to lossess in the 5th percentisle (or the kth value being the 5th value in the sorted expected returns). If the 5th vlauer is 8.70% we would state we are 95% confident that we will not loose more $87,000 (8.70% x 1,000,000 notiional portfolio) on a 1,000,000 portfolio of asset X after a timeframe of 5 Years. $CVAR$ will provide a value greater than this as it accounts for tail risk and is a more robust metric.
 
 ## Library and Web Usage &#x1F4F6;
 Libraries:
