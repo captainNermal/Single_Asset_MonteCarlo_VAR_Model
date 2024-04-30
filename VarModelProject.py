@@ -189,7 +189,7 @@ def logNormaldaily_returns(var_Model_sheet, historical_data_Close):
     #log returns of each datapoint
     for i in range(len(historical_data_Close)-1):
         
-        logNormal_return_daily = np.log((historical_data_Close['Close'][i]) / (historical_data_Close['Close'][i+1]))
+        logNormal_return_daily = np.log((historical_data_Close['Close'][i]) / (historical_data_Close['Close'][i-1]))
         logNormal_return_daily_list.append(logNormal_return_daily)
         var_Model_sheet.range(f'E{i+8}').value = logNormal_return_daily
 
