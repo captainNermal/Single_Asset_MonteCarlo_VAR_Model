@@ -1,4 +1,4 @@
-# Single Asset MonteCarlo VAR Model
+# Single Asset MonteCarlo VAR Model to Predict Expected Shortfalls
 ##### Joshua Smith 
 ## Project Description &#x1F4D3;
 
